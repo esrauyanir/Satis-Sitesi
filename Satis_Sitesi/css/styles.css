@@ -1,0 +1,2129 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Dosis', cursive;
+}
+h1{
+    font-family: 'Bungee', cursive;
+}
+h2,h3{
+    font-family: 'Yanone Kaffeesatz', cursive;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+ul{
+    list-style-type: none;
+}
+
+@media screen and (min-width: 1366px){
+    /* *** HEADER BAŞLANGIÇ *** */
+    header#mainheader{
+        width: 100%;
+        height: 650px;
+        position: relative;
+        background: url(../img/header2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    div#content-header{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    div#headerContainer{
+        width: 1100px;
+        margin: auto;
+        position: relative;
+    }
+
+    div#contentHeaderContainer{
+        width: 1100px;
+        height: 300px;
+        margin: auto;
+        position: relative;
+    }
+
+    div#headerTop{
+        width: 1100px;
+        height: 50px;
+        position: relative;
+        margin:auto;
+    }
+
+    ul#ulTopLeft{
+        list-style-type: none;
+        display: inline-block;
+        float: left;
+    }
+    ul#ulTopLeft li{
+        display: inline-block;
+        line-height: 50px;
+        border-right: 1px solid #ffffff;
+        padding: 0 10px;
+    }
+    ul#ulTopLeft li:first-child{
+        padding-left: 0;
+    }
+    ul#ulTopLeft li:last-child{
+        border-right: 0;
+    }
+    ul#ulTopLeft li a{
+        color: #ffffff;
+    }
+    ul#ulTopLeft li a:hover{
+        color: #ffffff;
+    }
+    div#topRight{
+        height: 50px;
+        position: relative;
+        float: right;
+    }
+    div.topContactlogo{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 20px;
+    }
+    div.topContacttext{
+        height: 50px;
+        line-height: 50px;
+        float: left;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+    /* *** NAV BAŞLANGIÇ *** */
+
+    div#button{
+        display: none;
+    }
+    nav ul#ulNavMobile{
+        display: none;
+    }
+
+    nav{
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        background:rgba(255, 255, 255, 0.5);
+        top: 50px;
+    }
+    div.ulNavMobile{
+        display: none;
+    }
+    div#navContainer{
+        width: 1100px;
+        height: 60px;
+        position: relative;
+        margin: auto;
+    }
+    div#navlogo{
+        display: inline;
+        float: left;
+    }
+    div#navlogo a {
+    display: inline-block;
+    }
+
+    ul#ulNavright{
+        list-style-type: none;
+        display: inline-block;
+        float: right;
+    }
+    ul#ulNavright li {
+        display: inline-block;
+        line-height: 60px;
+        margin-left: 20px;
+    }
+    ul#ulNavright li a{
+        color: #a5427c;
+    }
+    ul#ulNavright li a:hover{
+        color: #700142;
+    }
+    div#headertext{
+        margin-top:8%;
+        color: white;
+        text-align: center;
+    }
+    div#headertext h1{
+        line-height: 80px;
+        font-size: 30px;
+        text-shadow: 5px 5px 10px #000000;
+    }
+    div#headertext p{
+        display: inline-block;
+        line-height: 60px;
+        font-size: 20px;
+        text-shadow: 5px 5px 10px #000000;
+        background: rgba(0,0,0,0.5);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    div#headerbutton{
+        margin-top: 20px;
+    }
+    div#headerbutton a{
+        line-height: 60px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        color: #ffffff;
+        padding: 0px 20px;
+        transition: all .2s ease-in-out;
+        text-shadow: 3px 3px 4px #000000;
+    }
+    div#headerbutton a:last-child{
+        margin-left: 150px;
+        background-color: #ffe5b4;
+    }
+    div#headerbutton a:first-child{
+        margin-right: 150px;
+    }
+    div#headerbutton a:last-child:hover{
+        background: transparent;
+    }
+    div#headerbutton a:first-child:hover{
+        background: #ffe5b4;
+    }
+    /* *** SECTİON BAŞLANGICI *** */
+
+    /* *** BİRİNCİ SETİON *** */
+
+    section.birinciSection{
+        width: 1200px;
+        margin:auto;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    section.birinciSection h1, section.birinciSection p{
+        text-align: center;
+    }
+
+    section.birinciSection img{
+        width: 540px;
+        height: 396px;
+        margin-top: 30px;
+        border: 1px solid #000000;
+        padding: 10px;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    section.birinciSection article{
+        width: 540px;
+        float: right;
+        margin-top: 30px;
+    }
+
+    section.birinciSection article div.iconBox{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    div#alanarticle article p{
+        margin-top: 25px;
+    }
+
+    /* *** İKİNCİ SECTİON *** */
+
+    section.ikinciSection{
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+        background-color: #000000;
+    }
+    section.ikinciSection div#menuContainer{
+        width: 1100px;
+        height: 600px;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    section.ikinciSection div#menuContainer img{
+        width: 270px;
+        height: 270px;
+        opacity: 0.5;
+        transition: all .2s ease-in-out;
+
+    }
+    section.ikinciSection div#menuContainer img:hover{
+        opacity: 1;
+        transform: scale(1.01);
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer{
+        width: 810px;
+        height: 270px;
+        border: 1px solid #ffffff;
+        position: absolute;
+        margin-top: 150px;
+        text-align: center;
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer h1{
+        color: #ffffff;
+        line-height: 60px;
+        font-size: 25px;
+        margin-top: 80px;
+        text-shadow: 3px 3px 4px #000000;
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer a{
+        width: 210px;
+        height: 54px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        color: #ffffff;
+        line-height: 54px;
+        font-size: 18px;
+        transition: all .2s ease-in-out;
+        text-shadow: 3px 3px 4px #000000;
+
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer a:hover{
+        background-color: #ffe5b4;
+    }
+    /* *** ÜÇÜNCÜ SECTİON *** */
+
+    section.ikinciSection div.ikincisectionContainer{
+        width: 1200px;
+        height: 600px;
+        position: relative;
+        margin: auto;
+
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft{
+        width: 600px;
+        height: 600px;
+        position: relative;
+        background: rgba(0,0,0,0.5);
+        float: left;
+        color:#ffffff;
+        text-align: center;
+        text-shadow: 1px 1px 1px #000000;
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft h1{
+        font-size: 40px;
+        line-height: 80px;
+        margin-top: 100px;
+
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft h2{
+        font-size: 30px;
+        line-height: 60px;
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft p{
+        width: 450px;
+        font-size: 18px;
+        line-height: 32px;
+        margin:auto;
+        margin-top: 20px;
+    }
+    section.contentContainer{
+        width: 1200px;
+        position: relative;
+        margin: 50px auto;
+    }
+    /* *** HAKKIMIZDA BAŞLANGIÇ *** */
+    section.contentContainer h1 ,h2{
+        text-align: center;
+    }
+    section.contentContainer p{
+        margin: 20px 0;
+        line-height: 25px;
+    }
+
+    section.contentContainer div.managerBox{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        margin:auto;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 20px;
+    }
+    section.contentContainer div.managerBox img{
+        margin-left: 65px;
+    }
+   
+
+    /* *** İLETİŞİM BAŞLANGICI *** */
+
+    section.contentContainer div.contactParts{
+        width: 575px;
+        position: relative;
+        float: left;
+        margin-left: 15px;
+    }
+    section.contentContainer div.contactParts img:hover{
+        transform: scale(1.1);
+    }
+    section.contentContainer div.contactParts h2{
+        text-align:left;
+        margin-bottom: 20px;
+    }
+
+    section.contentContainer div.contactParts input.input{
+        width: 280px;
+        height: 40px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        box-sizing: border-box;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    section.contentContainer div.contactParts input.inputLeft{
+        float: left;
+    }
+    section.contentContainer div.contactParts input.inputRight{
+        float: right;
+    }
+    section.contentContainer div.contactParts textarea{
+        width: 575px;
+        height: 280px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        margin-top: 20px;
+        box-sizing: border-box;
+        padding: 15px;
+        resize: none;
+        border-radius: 10px;
+    }
+    section.contentContainer div.contactParts input.submit{
+        width: 280px;
+        height: 40px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        box-sizing: border-box;
+        margin-top: 20px;
+        background: transparent;
+        margin-left: 147px;
+        transition: all .2s ease;
+        border-radius: 10px;
+    }
+    section.contentContainer div.contactParts input.submit:hover{
+        cursor: pointer;
+        background: #6c5ce7;
+        color:#ffffff;
+    }
+    section.ikinciSection iframe{
+        width: 100%;
+        height: 450px;
+        position: relative;
+
+    }
+
+    /* *** FOOTER BAŞLANGICI *** */
+
+    footer{
+        width: 100%;
+        position: relative;
+        background: #1a1423;
+        float: left;
+
+    }
+    footer div#footerContainer{
+        width: 1200px;
+        position: relative;
+        margin:auto;
+        padding: 50px 0px;
+    }
+    footer div#footerContainer a{
+        display: inline-block;
+    }
+    footer div#footerContainer div.footerBox{
+        width: 400px;
+        position: relative;
+        float: left;
+        text-align: center;
+        color: #ffffff;
+    }
+    footer div#footerContainer div.footerBox h1{
+        font-family: 'Pacifico' , cursive;
+        font-size: 50px;
+        padding: 30px 0px;
+    }
+    footer div#footerContainer div.footerBox div#navlogo{
+        width: 100%;
+    }
+    footer div#footerContainer div.footerBox div#navlogo img{
+        display: block;
+        width: 150px;
+        height: 150px;
+    }
+    footer div#footerContainer div.footerBox img{
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    footer div#footerContainer div.footerBox img:hover{
+        transform: scale(1.08);
+
+    }
+    footer div#footerContainer div.footerBox h2{
+        font-size: 30px;
+        line-height: 60px;
+        border-bottom: 2px solid #ffffff;
+        width: 300px;
+        margin: auto;
+    }
+    footer div#footerContainer div.footerBox p{
+        text-align: left;
+        line-height: 30px;
+        width: 300px;
+        margin: auto;
+    }
+    footer div#footerContainer div.footerBox input{
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    footer div#copyright{
+        color: #636e72;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1365px){
+    /* *** HEADER BAŞLANGIÇ *** */
+    header#mainheader{
+        width: 100%;
+        height: 650px;
+        position: relative;
+        background: url(../img/header2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    div#content-header{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    div#headerContainer{
+        width: 940px;
+        margin: auto;
+        position: relative;
+    }
+
+    div#contentHeaderContainer{
+        width: 940px;
+        height: 300px;
+        margin: auto;
+        position: relative;
+    }
+
+    div#headerTop{
+        width: 940px;
+        height: 50px;
+        position: relative;
+        margin:auto;
+    }
+
+    ul#ulTopLeft{
+        list-style-type: none;
+        display: inline-block;
+        float: left;
+    }
+    ul#ulTopLeft li{
+        display: inline-block;
+        line-height: 50px;
+        border-right: 1px solid #ffffff;
+        padding: 0 10px;
+    }
+    ul#ulTopLeft li:first-child{
+        padding-left: 0;
+    }
+    ul#ulTopLeft li:last-child{
+        border-right: 0;
+    }
+    ul#ulTopLeft li a{
+        color: #ffffff;
+    }
+    ul#ulTopLeft li a:hover{
+        color: #ffffff;
+    }
+    div#topRight{
+        height: 50px;
+        position: relative;
+        float: right;
+    }
+    div.topContactlogo{
+        width: 30px;
+        height: 30px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 20px;
+    }
+    div.topContacttext{
+        height: 50px;
+        line-height: 50px;
+        float: left;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+    /* *** NAV BAŞLANGIÇ *** */
+
+    div#button{
+        display: none;
+    }
+    nav ul#ulNavMobile{
+        display: none;
+    }
+
+    nav{
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        background:rgba(255, 255, 255, 0.5);
+        top: 50px;
+    }
+    div.ulNavMobile{
+        display: none;
+    }
+    div#navContainer{
+        width: 940px;
+        height: 60px;
+        position: relative;
+        margin: auto;
+    }
+    div#navlogo{
+        font-family: 'Bungee', cursive;
+        color: #ffffff;
+        font-size: 30px;
+        line-height: 60px;
+        display: inline;
+        float: left;
+    }
+    ul#ulNavright{
+        list-style-type: none;
+        display: inline-block;
+        float: right;
+    }
+    ul#ulNavright li {
+        display: inline-block;
+        line-height: 60px;
+        margin-left: 20px;
+    }
+    ul#ulNavright li a{
+        color: #a5427c;
+    }
+    ul#ulNavright li a:hover{
+        color: #700142;
+    }
+    div#headertext{
+        margin-top:8%;
+        color: white;
+        text-align: center;
+    }
+    div#headertext h1{
+        line-height: 80px;
+        font-size: 30px;
+        text-shadow: 5px 5px 10px #000000;
+    }f3edc9
+    div#headertext p{
+        display: inline-block;
+        line-height: 60px;
+        font-size: 20px;
+        text-shadow: 5px 5px 10px #000000;
+        background: rgba(0,0,0,0.5);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    div#headerbutton{
+        margin-top: 20px;
+    }
+    div#headerbutton a{
+        line-height: 60px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        color: #ffffff;
+        padding: 0px 20px;
+        transition: all .2s ease-in-out;
+        text-shadow: 3px 3px 4px #000000;
+    }
+    div#headerbutton a:last-child{
+        margin-left: 150px;
+        background-color: #ffe5b4;
+    }
+    div#headerbutton a:first-child{
+        margin-right: 150px;
+    }
+    div#headerbutton a:last-child:hover{
+        background: transparent;
+    }
+    div#headerbutton a:first-child:hover{
+        background: #ffe5b4;
+    }
+    /* *** SECTİON BAŞLANGICI *** */
+
+    /* *** BİRİNCİ SETİON *** */
+
+    section.birinciSection{
+        width: 940px;
+        margin:auto;
+        position: relative;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    section.birinciSection h1, section.birinciSection p{
+        text-align: center;
+    }
+
+    section.birinciSection img{
+        width: 540px;
+        height: 396px;
+        margin-top: 30px;
+        border: 1px solid #000000;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.birinciSection article{
+        width: 540px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    section.birinciSection article div.iconBox{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    div#alanarticle article p{
+        margin-top: 25px;
+    }
+
+    /* *** İKİNCİ SECTİON *** */
+
+    section.ikinciSection{
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+        background-color: #000000;
+    }
+    section.ikinciSection div#menuContainer{
+        width: 940px;
+        height: 600px;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    section.ikinciSection div#menuContainer img{
+        width: 235px;
+        height: 235px;
+        opacity: 0.5;
+        transition: all .2s ease-in-out;
+
+    }
+    section.ikinciSection div#menuContainer img:hover{
+        opacity: 1;
+        transform: scale(1.01);
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer{
+        width: 705px;
+        height: 270px;
+        border: 1px solid #ffffff;
+        position: absolute;
+        margin-top: 150px;
+        text-align: center;
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer h1{
+        color: #ffffff;
+        line-height: 60px;
+        font-size: 25px;
+        margin-top: 90px;
+        text-shadow: 3px 3px 4px #000000;
+
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer a{
+        width: 210px;
+        height: 44px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        color: #ffffff;
+        line-height: 44px;
+        font-size: 18px;
+        transition: all .2s ease-in-out;
+        text-shadow: 3px 3px 4px #000000;
+
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer a:hover{
+        background-color: #ffe5b4;
+    }
+    /* *** ÜÇÜNCÜ SECTİON *** */
+
+    section.birinciSection div#teamContainer {
+        width: 940px;
+        height: 600px;
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+    
+    section.birinciSection div#teamContainer div.teamTile{
+        width: 250px;
+        position: relative;
+        float: left;
+        margin-left: 40px;
+        overflow: hidden;
+    }
+    section.birinciSection div#teamContainer div.teamTile img{
+        width: 250px;
+        height: 400px;
+    }
+    section.birinciSection div#teamContainer div.teamTile div.teamHover{
+        width: 250px;
+        height: 400px;
+        position: absolute;
+        top:30px;
+        left:-250px;
+        transition: all .5s ease;
+        background:url(../img/section-team/team1-1.jpg);
+        opacity: 0.6;
+    }
+    section.birinciSection div#teamContainer div.teamTile:hover div.teamHover{
+        left:0;
+    }
+    section.birinciSection div#teamContainer div.teamTile div.teamHover div.teamtext{
+        background-color: #000000;
+        color:#ffffff;
+        line-height: 60px;
+        margin-top: 200px;
+        text-shadow: 3px 3px 1px #000000;
+    }
+
+    /* *** DÖRDÜNCÜ SECTİON *** */
+    section.ikinciSection div.ikincisectionContainer{
+        width: 940px;
+        height: 450px;
+        position: relative;
+        margin: 0px auto;
+
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft{
+        width: 470px;
+        height: 450px;
+        position: relative;
+        background: rgba(0,0,0,0.5);
+        color:#ffffff;
+        text-align: center;
+        text-shadow: 1px 1px 1px #000000;
+        margin: auto;
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft h1{
+        font-size: 35px;
+        line-height: 70px;
+        margin-top: 55px;
+
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft h2{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft p{
+        width: 430px;
+        font-size: 16px;
+        line-height: 28px;
+        margin:auto;
+        margin-top: 20px;
+    }
+
+
+    section.contentContainer{
+        width: 940px;
+        position: relative;
+        margin: 50px auto;
+    }
+    /* *** HAKKIMIZDA BAŞLANGIÇ *** */
+    section.contentContainer h1 ,h2{
+        text-align: center;
+    }
+    section.contentContainer p{
+        width: 880px;
+        margin: 20px auto;
+        line-height: 25px;
+    }
+
+    section.contentContainer div.managerBox{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        margin:auto;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 20px;
+    }
+    section.contentContainer div.managerBox img{
+        margin-left: 65px;
+    }
+
+    /* *** GALERİ BAŞLANGIÇ *** */
+    .galeri{
+        width: 100%;
+        position: relative;
+        height: 100%;
+    }   
+    .resimler{
+        margin: auto;
+    }
+    .resimler img{
+        transition: .5s;
+        filter: grayscale(100%);
+        padding: 15px;
+        width: 235px;
+        height: 235px;
+
+    }
+    .resimler img:hover{
+        filter:none;
+        transform: scale(1.04);
+        filter: drop-shadow(4px 4px 6px gray);
+    }
+
+
+    /* *** İLETİŞİM BAŞLANGICI *** */
+
+    section.contentContainer div.contactParts{
+        width: 575px;
+        position: relative;
+        margin: auto;
+    }
+    section.contentContainer div.contactParts img:hover{
+        transform: scale(1.1);
+    }
+    section.contentContainer div.contactParts h2{
+        text-align:left;
+        margin-bottom: 20px;
+    }
+    div.contactParts p{
+        width: 575px;
+    }
+
+    section.contentContainer div.contactParts input.input{
+        width: 280px;
+        height: 40px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        box-sizing: border-box;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    section.contentContainer div.contactParts input.inputLeft{
+        float: left;
+    }
+    section.contentContainer div.contactParts input.inputRight{
+        float: right;
+    }
+    section.contentContainer div.contactParts textarea{
+        width: 575px;
+        height: 280px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        margin-top: 20px;
+        box-sizing: border-box;
+        padding: 10px;
+        resize: none;
+        border-radius: 10px;
+    }
+    section.contentContainer div.contactParts input.submit{
+        width: 280px;
+        height: 40px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        box-sizing: border-box;
+        margin-top: 20px;
+        background: transparent;
+        margin-left: 147px;
+        transition: all .2s ease;
+        border-radius: 10px;
+    }
+    section.contentContainer div.contactParts input.submit:hover{
+        cursor: pointer;
+        background: #6c5ce7;
+        color:#ffffff;
+    }
+    section.ikinciSection iframe{
+        width: 100%;
+        height: 350px;
+        position: relative;
+    }
+
+    /* *** FOOTER BAŞLANGICI *** */
+
+    footer{
+        width: 100%;
+        position: relative;
+        background: #1a1423;
+        float: left;
+
+    }
+    footer div#footerContainer{
+        width: 940px;
+        position: relative;
+        margin:auto;
+        padding: 50px 0px;
+    }
+    footer div#footerContainer div.footerBox{
+        width: 312px;
+        position: relative;
+        float: left;
+        text-align: center;
+        color: #ffffff;
+    }
+    footer div#footerContainer div.footerBox h1{
+        font-family: 'Pacifico' , cursive;
+        font-size: 50px;
+        padding: 30px 0px;
+    }
+    footer div#footerContainer div.footerBox div#navlogo{
+        width: 100%;
+    }
+    footer div#footerContainer div.footerBox div#navlogo img{
+        display: block;
+        width: 130px;
+        height: 130px;
+    }
+    footer div#footerContainer div.footerBox div#navlogo a{
+        display: inline-block;
+    }
+    footer div#footerContainer div.footerBox img{
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    footer div#footerContainer div.footerBox img:hover{
+        transform: scale(1.08);
+
+    }
+    footer div#footerContainer div.footerBox h2{
+        font-size: 30px;
+        line-height: 60px;
+        border-bottom: 2px solid #ffffff;
+        width: 300px;
+        margin: auto;
+    }
+    footer div#footerContainer div.footerBox p{
+        text-align: left;
+        line-height: 30px;
+        width: 300px;
+        margin: auto;
+    }
+    footer div#footerContainer div.footerBox input{
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    footer div#copyright{
+        color: #636e72;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 959px){
+    /* *** HEADER BAŞLANGIÇ *** */
+    header#mainheader{
+        width: 100%;
+        height: 400px;
+        position: relative;
+        background: url(../img/header2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    div#content-header{
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+
+    div#headerContainer{
+        width: 700px;
+        margin: auto;
+        position: relative;
+    }
+
+    div#contentHeaderContainer{
+        width: 700px;
+        height: 200px;
+        margin: auto;
+        position: relative;
+    }
+
+    div#headerTop{
+        width: 700px;
+        height: 40px;
+        position: relative;
+        margin:auto;
+    }
+
+    ul#ulTopLeft{
+        list-style-type: none;
+        display: inline-block;
+        float: left;
+    }
+    ul#ulTopLeft li{
+        display: inline-block;
+        line-height: 40px;
+        border-right: 1px solid #ffffff;
+        padding: 0 10px;
+    }
+    ul#ulTopLeft li:first-child{
+        padding-left: 0;
+    }
+    ul#ulTopLeft li:last-child{
+        border-right: 0;
+    }
+    ul#ulTopLeft li a{
+        color: #ffffff;
+    }
+    ul#ulTopLeft li a:hover{
+        color: #ffffff;
+    }
+    div#topRight{
+        height: 40px;
+        position: relative;
+        float: right;
+    }
+    div.topContactlogo{
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        float: left;
+        margin-left: 20px;
+    }
+    div.topContacttext{
+        height: 40px;
+        line-height: 40px;
+        float: left;
+        margin-left: 20px;
+        color: #ffffff;
+    }
+    /* *** NAV BAŞLANGIÇ *** */
+    nav{
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        background:rgba(255, 255, 255, 0.5);
+        top: 40px;
+    }
+    div#navContainer{
+        width: 700px;
+        height: 60px;
+        position: relative;
+        margin: auto;
+    }
+    div#navlogo{
+        display: inline;
+        float: left;
+    }
+    div#navlogo a{
+        display: inline-block;
+    }
+    ul#ulNavright{
+        list-style-type: none;
+        display: inline-block;
+        float: right;
+        display: none;
+    }
+    /* *** Desktop Nav *** */
+  /*ul#ulNavright li {
+        display: inline-block;
+        line-height: 60px;
+        margin-left: 20px;
+    }
+    ul#ulNavright li a{
+        color: #ffffff;
+    }
+    ul#ulNavright li a:hover{
+        color: #95a5a6;
+    }*/
+
+    /* *** NAV MOBİLE *** */
+    div#button{
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        background:url(../img/icon/menu-button.png);
+
+
+    }
+    nav ul#ulNavMobile{
+        width: 700px;
+        position: absolute;
+        top: 60px;
+        background-color: #ffe5b4;
+        display: none;
+    }
+
+    ul#ulNavMobile li{
+        text-align: center;
+        border-bottom: 1px solid #ffffff;
+
+    }
+
+    ul#ulNavMobile li:last-child{
+        border:0;
+    }
+
+    ul#ulNavMobile a {
+        width: 700px;
+        line-height: 40px;
+        color: #ffffff;
+        display: block;
+        transition: all .3s ease-in-out;
+    }
+
+    ul#ulNavMobile a:hover{
+        background: #ffffff;
+        color: #ffe5b4;
+    }
+
+    div#headertext{
+        margin-top:8%;
+        color: white;
+        text-align: center;
+    }
+
+    div#headertext h1{
+        line-height: 80px;
+        font-size: 25px;
+        text-shadow: 5px 5px 10px #000000;
+    }
+    div#headertext p{
+        display: inline-block;
+        line-height: 45px;
+        font-size: 15px;
+        text-shadow: 5px 5px 10px #000000;
+        background: rgba(0,0,0,0.5);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    div#headerbutton{
+        margin-top: 20px;
+    }
+    div#headerbutton a{
+        line-height: 35px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        color: #ffffff;
+        padding: 0px 18px;
+        transition: all .2s ease-in-out;
+        text-shadow: 3px 3px 4px #000000;
+    }
+    div#headerbutton a:last-child{
+        margin-left: 100px;
+        background-color: #ffe5b4;
+    }
+    div#headerbutton a:first-child{
+        margin-right: 100px;
+    }
+    div#headerbutton a:last-child:hover{
+        background: transparent;
+    }
+    div#headerbutton a:first-child:hover{
+        background: #ffe5b4;
+    }
+    /* *** SECTİON BAŞLANGICI *** */
+
+    /* *** BİRİNCİ SETİON *** */
+
+    section.birinciSection{
+        width: 700px;
+        margin:auto;
+        position: relative;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    section.birinciSection h1, section.birinciSection p{
+        text-align: center;
+    }
+
+    section.birinciSection img{
+        width: 540px;
+        height: 396px;
+        margin-top: 30px;
+        border: 1px solid #000000;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.birinciSection article{
+        width: 540px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    section.birinciSection article div.iconBox{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    div#alanarticle article p{
+        margin-top: 25px;
+    }
+
+    /* *** İKİNCİ SECTİON *** */
+
+    section.ikinciSection{
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+        background-color: #000000;
+    }
+    section.ikinciSection div#menuContainer{
+        width: 700px;
+        height: 500px;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    section.ikinciSection div#menuContainer img{
+        width: 175px;
+        height: 175px;
+        opacity: 0.5;
+        transition: all .2s ease-in-out;
+
+    }
+    section.ikinciSection div#menuContainer img:hover{
+        opacity: 1;
+        transform: scale(1.01);
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer{
+        width: 525px;
+        height: 175px;
+        border: 1px solid #ffffff;
+        position: absolute;
+        margin-top: 150px;
+        text-align: center;
+
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer h1{
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 50px;
+        text-shadow: 3px 3px 3px #000000;
+
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer a{
+        width: 190px;
+        height: 34px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        color: #ffffff;
+        line-height:32px;
+        transition: all .2s ease-in-out;
+        text-shadow: 3px 3px 3px #000000;
+
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer a:hover{
+        background-color: #ffe5b4;
+    }
+    /* *** ÜÇÜNCÜ SECTİON *** */
+
+    section.birinciSection div#teamContainer {
+        width: 700px;
+        height: 500px;
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+    
+    section.birinciSection div#teamContainer div.teamTile{
+        width: 210px;
+        position: relative;
+        float: left;
+        margin-left:15px;
+        overflow: hidden;
+    }
+    div#teamContainer div.teamTile img{
+        width: 210px;
+        height: 350px;
+    }
+    section.birinciSection div#teamContainer div.teamTile div.teamHover{
+        width: 210px;
+        height: 350px;
+        position: absolute;
+        top:30px;
+        left:-210px;
+        transition: all .5s ease;
+        background:url(../img/section-team/team1-1.jpg);
+        opacity: 0.6;
+    }
+    section.birinciSection div#teamContainer div.teamTile:hover div.teamHover{
+        left:0;
+    }
+    section.birinciSection div#teamContainer div.teamTile div.teamHover div.teamtext{
+        background-color: #000000;
+        color:#ffffff;
+        line-height: 60px;
+        margin-top: 140px;
+        text-shadow: 3px 3px 1px #000000;
+    }
+
+    /* *** DÖRDÜNCÜ SECTİON *** */
+    section.ikinciSection div.ikincisectionContainer{
+        width: 700px;
+        height: 380px;
+        position: relative;
+        margin: 0px auto;
+
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft{
+        width: 470px;
+        height: 380px;
+        position: relative;
+        background: rgba(0,0,0,0.5);
+        color:#ffffff;
+        text-align: center;
+        text-shadow: 1px 1px 1px #000000;
+        margin: auto;
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft h1{
+        font-size: 25px;
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft h2{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft p{
+        width: 430px;
+        line-height: 28px;
+        margin:auto;
+        margin-top: 20px;
+    }
+
+
+    section.contentContainer{
+        width: 700px;
+        position: relative;
+        margin: 50px auto;
+    }
+    /* *** HAKKIMIZDA BAŞLANGIÇ *** */
+    section.contentContainer h1 ,h2{
+        text-align: center;
+    }
+    section.contentContainer p{
+        width: 700px;
+        margin: 30px auto;
+        line-height: 25px;
+    }
+
+    section.contentContainer div.managerBox{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        margin:auto;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 20px;
+    }
+    section.contentContainer div.managerBox img{
+        margin-left: 65px;
+    }
+
+    /* *** İLETİŞİM BAŞLANGICI *** */
+
+    section.contentContainer div.contactParts{
+        width: 575px;
+        position: relative;
+        margin: auto;
+    }
+    section.contentContainer div.contactParts img:hover{
+        transform: scale(1.1);
+    }
+    section.contentContainer div.contactParts h2{
+        text-align:left;
+        margin-bottom: 20px;
+    }
+    div.contactParts p{
+        width: 575px;
+    }
+
+    section.contentContainer div.contactParts input.input{
+        width: 280px;
+        height: 40px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        box-sizing: border-box;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    section.contentContainer div.contactParts input.inputLeft{
+        float: left;
+    }
+    section.contentContainer div.contactParts input.inputRight{
+        float: right;
+    }
+    section.contentContainer div.contactParts textarea{
+        width: 575px;
+        height: 280px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        margin-top: 20px;
+        box-sizing: border-box;
+        padding: 10px;
+        resize: none;
+        border-radius: 10px;
+    }
+    section.contentContainer div.contactParts input.submit{
+        width: 280px;
+        height: 40px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        box-sizing: border-box;
+        margin-top: 20px;
+        background: transparent;
+        margin-left: 147px;
+        transition: all .2s ease;
+        border-radius: 10px;
+    }
+    section.contentContainer div.contactParts input.submit:hover{
+        cursor: pointer;
+        background: #6c5ce7;
+        color:#ffffff;
+    }
+    section.ikinciSection iframe{
+        width: 100%;
+        height: 350px;
+        position: relative;
+    }
+
+    /* *** FOOTER BAŞLANGICI *** */
+
+    footer{
+        width: 100%;
+        position: relative;
+        background: #1a1423;
+        float: left;
+
+    }
+    footer div#footerContainer{
+        width: 700px;
+        position: relative;
+        margin:auto;
+        padding: 20px 0px;
+    }
+    footer div#footerContainer div.footerBox{
+        width: 220px;
+        position: relative;
+        float: left;
+        text-align: center;
+        color: #ffffff;
+    }
+    footer div#footerContainer div.footerBox div#navlogo{
+        width: 100%;
+    }
+    footer div#footerContainer div.footerBox div#navlogo img{
+        display: block;
+        width: 130px;
+        height: 130px;
+    }
+    footer div#footerContainer div.footerBox div#navlogo a{
+        display: inline-block;
+    }
+    footer div#footerContainer div.footerBox h1{
+        font-family: 'Pacifico' , cursive;
+        font-size: 30px;
+        padding: 20px 0px;
+        margin-top: 30px;
+    }
+    footer div#footerContainer div.footerBox img{
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    footer div#footerContainer div.footerBox img:hover{
+        transform: scale(1.08);
+
+    }
+    footer div#footerContainer div.footerBox h2{
+        font-size: 25px;
+        line-height: 60px;
+        border-bottom: 2px solid #ffffff;
+        width: 210px;
+        margin: auto;
+    }
+    footer div#footerContainer div.footerBox p{
+        text-align: left;
+        width: 210px;
+        margin: auto;
+        font-size: 15px;
+    }
+    footer div#footerContainer div.footerBox input{
+        width: 220px;
+        height: 30px;
+        margin-top: 11px;
+        font-size: 10px;
+    }
+    footer div#copyright{
+        color: #636e72;
+        width: 100%;
+        text-align: center;
+        padding: 5px 0px;
+    }
+}
+
+@media screen and (max-width: 719px){
+
+    /* *** HEADER BAŞLANGIÇ *** */
+    header#mainheader{
+        width: 100%;
+        height: 17%;
+        position: relative;
+        background: url(../img/header2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    div#content-header{
+        width: 100%;
+        height: 14%;
+        position: relative;
+    }
+
+    div#headerContainer{
+        width: 100%px;
+        margin: auto;
+        position: relative;
+
+    }
+
+    div#contentHeaderContainer{
+        width: 100%;
+        height: 200px;
+        margin: auto;
+        position: relative;
+    }
+
+    div#headerTop{
+        width: 20%;
+        height: 40px;
+        position: relative;
+        margin:auto;
+    }
+
+    ul#ulTopLeft{
+        display: none;
+    }
+    
+    div#topRight{
+        display: none;
+    }
+    
+    /* *** NAV BAŞLANGIÇ *** */
+
+    nav{
+        width: 100%;
+        height: 60px;
+        position: absolute;
+        background:rgba(255, 255, 255, 0.5);
+        top: 4%;
+    }
+    div#navContainer{
+        width: 100%;
+        height: 60px;
+        position: relative;
+        margin: auto;
+    }
+    div#navlogo{
+        display: inline;
+        float: left;
+    }
+    ul#ulNavright{
+        list-style-type: none;
+        display: inline-block;
+        float: right;
+        display: none;
+    }
+    /* *** Desktop Nav *** */
+  /*ul#ulNavright li {
+        display: inline-block;
+        line-height: 60px;
+        margin-left: 20px;
+    }
+    ul#ulNavright li a{
+        color: #ffffff;
+    }
+    ul#ulNavright li a:hover{
+        color: #95a5a6;
+    }*/
+
+    /* *** NAV MOBİLE *** */
+    div#button{
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+        position: relative;
+        background:url(../img/icon/menu-button.png);
+
+
+    }
+    nav ul#ulNavMobile{
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        background-color: #ffe5b4;
+        display: none;
+    }
+
+    ul#ulNavMobile li{
+        text-align: center;
+        border-bottom: 1px solid #ffffff;
+
+    }
+
+    ul#ulNavMobile li:last-child{
+        border:0;
+    }
+
+    ul#ulNavMobile a {
+        width: 100%;
+        line-height: 40px;
+        color: #ffffff;
+        display: block;
+        transition: all .3s ease-in-out;
+    }
+
+    ul#ulNavMobile a:hover{
+        background: #ffffff;
+        color: #ffe5b4;
+    }
+
+    div#headertext{
+        margin-top:10%;
+        color: white;
+        text-align: center;
+    }
+
+    div#headertext h1{
+        line-height: 60px;
+        font-size: 20px;
+        text-shadow: 5px 5px 10px #000000;
+    }
+    div#headertext p{
+        display: inline-block;
+        line-height: 45px;
+        font-size: 13px;
+        text-shadow: 5px 5px 10px #000000;
+        background: rgba(0,0,0,0.5);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    div#headerbutton{
+        margin-top: 20px;
+    }
+    div#headerbutton a{
+        line-height: 30px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        color: #ffffff;
+        padding: 0px 14px;
+        transition: all .2s ease-in-out;
+        text-shadow: 3px 3px 4px #000000;
+        font-size: 14px;
+    }
+    div#headerbutton a:last-child{
+        margin:auto;
+        background-color: #ffe5b4;
+        margin-bottom: 20px;
+    }
+    div#headerbutton a:first-child{
+        display: none;
+    }
+    div#headerbutton a:last-child:hover{
+        background: transparent;
+    }
+    div#headerbutton a:first-child:hover{
+        background: #ffe5b4;
+    }
+    /* *** SECTİON BAŞLANGICI *** */
+
+    /* *** BİRİNCİ SETİON *** */
+
+    section.birinciSection{
+        width: 100%;
+        margin:auto;
+        position: relative;
+        margin-top: 30px;
+        text-align: center;
+    }
+    section.birinciSection h1{
+        font-size: 20px;
+    }
+
+    section.birinciSection h1, section.birinciSection p{
+        text-align: center;
+    }
+
+    section.birinciSection img{
+        width: 80%;
+        margin-top: 15px;
+        border: 1px solid #000000;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    section.birinciSection article{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    section.birinciSection article div.iconBox{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    div#alanarticle article p{
+        margin-top: 25px;
+    }
+
+    /* *** İKİNCİ SECTİON *** */
+
+    section.ikinciSection{
+        width: 100%;
+        position: relative;
+        margin-top: 50px;
+        background-color: #000000;
+    }
+    section.ikinciSection div#menuContainer{
+        width: 100%;
+        height: 250px;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    section.ikinciSection div#menuContainer img{
+        width: 25%;
+        height: 37.5%;
+        opacity: 0.5;
+        transition: all .2s ease-in-out;
+
+    }
+    section.ikinciSection div#menuContainer img:hover{
+        opacity: 1;
+        transform: scale(1.01);
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer{
+        width: 80%;
+        height: 40%;
+        border: 1px solid #ffffff;
+        position: absolute;
+        margin-top: 10%;
+        text-align: center;
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer h1{
+        color: #ffffff;
+        font-size: 11px;
+        margin-top: 20px;
+        text-shadow: 2px 2px 2px #000000;
+
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer a{
+        width: 75px;
+        height: 25px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        color: #ffffff;
+        line-height:25px;
+        transition: all .2s ease-in-out;
+        font-size: 10px;
+        text-shadow: 2px 2px 2px #000000;
+
+    }
+    section.ikinciSection div#menuContainer div#menulinkContainer a:hover{
+        background-color: #ffe5b4;
+    }
+    /* *** ÜÇÜNCÜ SECTİON *** */
+
+    section.birinciSection div#teamContainer {
+        width:100%;
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+    
+    section.birinciSection div#teamContainer div.teamTile{
+        width: 190px;
+        position: relative;
+        overflow: hidden;
+        margin:auto;
+    }
+    div#teamContainer div.teamTile img{
+        width: 190px;
+        height: 330px;
+    }
+    section.birinciSection div#teamContainer div.teamTile div.teamHover{
+        width: 190px;
+        height: 330px;
+        position: absolute;
+        top:15px;
+        left:-190px;
+        transition: all .5s ease;
+        background:url(../img/section-team/team1-1.jpg);
+        opacity: 0.6;
+    }
+    section.birinciSection div#teamContainer div.teamTile:hover div.teamHover{
+        left:0;
+    }
+    section.birinciSection div#teamContainer div.teamTile div.teamHover div.teamtext{
+        background-color: #000000;
+        color:#ffffff;
+        line-height: 60px;
+        margin-top: 140px;
+        text-shadow: 3px 3px 1px #000000;
+    }
+
+    /* *** DÖRDÜNCÜ SECTİON *** */
+    section.ikinciSection div.ikincisectionContainer{
+        width: 100%;
+        height: 350px;
+        position: relative;
+        margin:auto;
+
+
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft{
+        width: 80%;
+        height: 100%;
+        position: relative;
+        background: rgba(0,0,0,0.5);
+        color:#ffffff;
+        text-align: center;
+        text-shadow: 1px 1px 1px #000000;
+        margin: auto;
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft h1{
+        font-size: 20px;
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft h2{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    section.ikinciSection div.ikincisectionContainer div.ikincisectionleft p{
+        width: 90%;
+        line-height: 20px;
+        margin:auto;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+
+    section.contentContainer{
+        width: 100%;
+        position: relative;
+        margin: 50px auto;
+    }
+    /* *** HAKKIMIZDA BAŞLANGIÇ *** */
+    section.contentContainer h1 ,h2{
+        text-align: center;
+    }
+    section.contentContainer p{
+        width: 90%;
+        margin: 30px auto;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    section.contentContainer div.managerBox{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        margin:auto;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 20px;
+    }
+    section.contentContainer div.managerBox img{
+        margin-left: 65px;
+    }
+
+    /* *** İLETİŞİM BAŞLANGICI *** */
+
+    section.contentContainer div.contactParts{
+        width: 100%;
+        position: relative;
+
+    }
+
+    section.contentContainer div.contactParts img{
+        margin-left: 15%;
+        display: none;
+    }
+    section.contentContainer div.contactParts img:hover{
+        transform: scale(1.1);
+    }
+    section.contentContainer div.contactParts h2{
+        text-align:center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: none;
+
+    }
+    div.contactParts p{
+        width: 90%;
+        margin:5px 5%;
+
+    }
+
+    section.contentContainer div.contactParts input.input{
+        width: 90%;
+        height: 40px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        box-sizing: border-box;
+        margin: 5px 5%;
+        text-align: center;
+        border-radius: 10px;
+    }
+    section.contentContainer div.contactParts textarea{
+        width: 90%;
+        height: 300px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        margin: 5px 5%;
+        box-sizing: border-box;
+        resize: none;
+        border-radius: 10px;
+
+    }
+    section.contentContainer div.contactParts input.submit{
+        width: 90%;
+        height: 40px;
+        position: relative;
+        border: 1px solid #6c5ce7;
+        box-sizing: border-box;
+        margin: 10px 5%;
+        background: transparent;
+        transition: all .2s ease;
+        border-radius: 10px;
+    }
+    section.contentContainer div.contactParts input.submit:hover{
+        cursor: pointer;
+        background: #6c5ce7;
+        color:#ffffff;
+    }
+    section.ikinciSection iframe{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    /* *** FOOTER BAŞLANGICI *** */
+
+    footer{
+        width: 100%;
+        position: relative;
+        background: #1a1423;
+        margin: auto;
+
+    }
+    footer div#footerContainer{
+        width: 100%;
+        position: relative;
+        margin:auto;
+        padding: 10px 0px;
+    }
+    footer div#footerContainer div.footerBox{
+        width: 80%;
+        position: relative;
+        text-align: center;
+        color: #ffffff;
+        margin: 5px auto;
+        
+    }
+    footer div#footerContainer div.footerBox div#navlogo{
+        width: 100%;
+    }
+    footer div#footerContainer div.footerBox div#navlogo img{
+        display: block;
+        width: 80px;
+        height: 80px;
+    }
+    footer div#footerContainer div.footerBox div#navlogo a{
+        display: inline-block;
+    }
+    footer div#footerContainer div.footerBox h1{
+        font-family: 'Pacifico' , cursive;
+        font-size: 20px;
+        padding: 5px 0px;
+        margin-top: 5px;
+    }
+    footer div#footerContainer div.footerBox img{
+        width: 20px;
+        height: 20px;
+    }
+    footer div#footerContainer div.footerBox img:hover{
+        transform: scale(1.08);
+
+    }
+    footer div#footerContainer div.footerBox h2{
+        font-size: 20px;
+        line-height: 40px;
+        border-bottom: 2px solid #ffffff;
+        width: 145px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    footer div#footerContainer div.footerBox p{
+        text-align: left;
+        width: 145px;
+        margin: auto;
+        font-size: 10px;
+    }
+    footer div#footerContainer div.footerBox input{
+        width: 145px;
+        height: 15px;
+        margin-top: 8px;
+        font-size: 10px;
+    }
+    footer div#copyright{
+        color: #636e72;
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        padding: 5px 0px;
+    }
+}
